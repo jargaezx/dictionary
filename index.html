@@ -64,7 +64,6 @@
                     console.log(meanings);
                     var ul = document.createElement('ul');
                     return meanings.map(function (meaning) {
-
                         let liTitle = document.createElement('li');
                         let spanTitle = document.createElement('span');
                         spanTitle.className = 'fw-bold';
@@ -82,7 +81,6 @@
                             ulContent.appendChild(liContent);
                         });
                         ul.appendChild(ulContent);
-
                         div.append(ul);
                     });
 
